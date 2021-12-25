@@ -1,0 +1,589 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.woff2') format('woff2'),
+        url('fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-unbold';
+    src: url('fonts/Roboto-Regular.woff2') format('woff2'),
+        url('fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Arsenal-Bold';
+    src: url('fonts/Arsenal-Bold.woff2') format('woff2'),
+        url('fonts/Arsenal-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('fonts/Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+html {
+    font-size: 0.52vw;
+  }
+
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+ul {
+    padding: 0;
+    margin: unset;
+  }
+button{
+    background-color: unset;
+    border: unset;
+    cursor: pointer;    
+    padding: unset;
+    border: unset;
+    font-family: unset;
+}
+h3{
+    margin: unset;
+}
+.header{    
+    display: flex;
+    color: white;
+    background: rgba(32, 32, 32, 0.69);
+    font-family: 'Roboto';
+    font-size: 2.5rem;
+    justify-content: space-between;
+    padding: 4.65rem 25rem 4.95rem 20.8rem;
+}
+.header_menu{
+    display: flex;
+}
+.header_menu li{
+    display: block;
+    margin-right: 4.5rem;
+}
+.heder_right-section{
+    display: flex;
+    align-items: center;
+}
+.header_favotites{
+    width: 3.5rem;
+    height: 2.86rem;    
+    margin: 0.97rem 4.46rem 0 0;
+}
+.header_my-prof{
+    margin: 0 2.1rem 0 0;
+}
+.header_prof-icon{
+    width: 5.2rem;
+    height: 5.2rem;
+}
+.header_my-prof-link{
+    display: flex;
+    align-items: center;
+}
+.section-1{
+    background-image: url(img/lisa-br-WilrUCHfnLI-unsplash\ 1.png);
+    background-size: 192rem;
+}
+.section-1_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Arsenal-Bold';
+    padding-bottom: 26.2rem ;
+}
+.section-1 h1{
+    font-size: 6rem;
+    margin: 17.15rem 0 16.75rem 0;
+    color: white;
+}
+.section-1_button-list{
+    display: flex;
+    font-size: 2.2rem;
+    z-index: 2;    
+}
+.section-1_button-list li{
+    display: block;
+    padding-top: 2.075rem;
+    padding-bottom: 1.975rem;
+    font-weight: bold;
+}
+.section-1_button-list_first-el, .section-1_button-list_third-el{
+    background: rgba(255, 255, 255, 0.7);
+}
+.section-1_button-list_first-el{
+    padding-left: 6.275rem;
+    padding-right: 3.663rem;
+    border-radius: 30px 0 0px 0px;
+}
+.section-1_button-list_second-el{
+    background: #019CDE;
+    padding-left: 3.537rem;
+    padding-right: 3.437rem;
+    color: white;
+}
+.section-1_button-list_third-el{
+    padding-left: 3.762rem;
+    padding-right: 4.975rem;
+    border-radius: 0 30px 0px 0px;
+}
+.section-1_select-block{
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0px 1px 11px rgba(92, 92, 92, 0.25);
+    border-radius: 20px;
+    display: flex;
+    font-size: 2.5rem;
+    padding: 2.1rem 6.9rem 2.1rem 5.1rem;
+}
+.section-1_select-block_el1, .section-1_select-block_el2, .section-1_select-block_el3{
+    display: flex;
+    flex-direction: column;   
+    width: 30.7rem; 
+}
+.section-1_select-block_el1, .section-1_select-block_el2{
+    padding-right: 3.95rem;
+    border-right: 2px solid #019CDE;
+}
+.section-1_select-block_el2, .section-1_select-block_el3{
+    padding-left: 4rem;
+}
+.section-1_select-block_el1 select, .section-1_select-block_el2 select, .section-1_select-block_el3 select{
+    margin-top: 1.65rem;
+}
+.section-1_select-block_el3{
+    margin-right: 8.58rem;
+}
+.section-1_select-block_search{
+    padding: 0.3rem 7.9rem 0.7rem;
+    height: 4rem;
+    background: #019CDE;
+    border-radius: 10px;
+    color: white;
+    margin-top: 4.25rem;
+}
+.section-2{
+    margin: 7.8rem 25rem 9.35rem;
+    font-size: 3.5rem;
+    font-family: 'Roboto';  
+}
+.section-2_wrap-1, .section-2_wrap-2{
+    display: flex;
+}
+.section-2_house-1, .section-2_house-2, .section-2_house-3, .section-2_house-4{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.section-2_house-1,.section-2_house-3{
+    margin-right: 3.24rem;
+}
+.section-2_house-1,.section-2_house-2{
+    margin-bottom: 5.35rem;
+}
+.section-2_house-1_img, .section-2_house-2_img, .section-2_house-3_img, .section-2_house-4_img{
+    margin-bottom: 3.6rem;
+    position: relative;
+    display: flex;
+}
+.section-2_house-1_img img, .section-2_house-2_img img, .section-2_house-3_img img, .section-2_house-4_img img{
+    width: 69.362rem;
+    height: 34.743rem;
+}
+.section-2_house-1_img::before, .section-2_house-2_img::before, .section-2_house-3_img::before, .section-2_house-4_img::before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(44, 57, 90, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+}
+.section-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto";
+}
+.section-3_h2{
+    margin: 0 0 5.25rem 5rem;
+    font-family: "Arsenal-Bold";
+    font-size: 5.5rem;
+}
+.section-3_cards{
+    font-size: 2.5rem;
+    box-shadow: 0px 1px 11px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+.section-3_cards_img-1{
+    width: 45.3rem;
+    height: 46.75rem;
+}
+.section-3_cards_img-2{
+    width: 2.8rem;
+    height: 3.1rem;
+}
+.section-3_cards_img-3{
+    width: 5.2rem;
+    height: 4.1rem;
+    margin: 0 11.5rem 0 3.8rem;    
+}
+.section-3_cards_img-4{
+    width: 3.9rem;
+    height: 3.6rem;
+    margin-top: 1.7rem;
+}
+.section-3_cards_img-5{
+    width: 2.3rem;
+    height: 2.1rem;
+}
+.section-3_cards_div-1{
+    display: flex;
+    margin-left: 1.5rem;
+}
+.section-3_cards_div-2{
+    font-size: 1.8rem;
+    font-family: 'Roboto-unbold';
+    color: #A9A9A9;
+    display: flex;
+    align-items: center;    
+}
+.section-3_cards_div-3{
+    display: flex;
+    justify-content: space-between;
+    margin: 2.3rem 2.3rem 4.4rem 2.5rem;
+}
+.section-3_cards_div-4{
+    font-family: 'Roboto-unbold';
+}
+.section-3_cards_div-5{
+    margin: 0 1.5rem 1.3rem 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-3_cards_learn-more{
+    width: 18.3rem;
+    height: 4.7rem;
+    font-size: 2.3rem;
+    background-color: #019CDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.section-3_cards_wrap{
+    display: flex;
+}
+.section-3_cards_wrap .section-3_cards{
+    margin-right: 3rem;
+}
+.section-3_cards_wrap .section-3_cards:last-child{
+    margin-right: 0;
+}
+.section-4_h2{
+    margin: 13.2rem 0 4.8rem;
+    font-size: 5.5rem;
+    font-family: "Arsenal-Bold";
+}
+.section-4{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2rem;
+    font-family: 'Roboto-unbold';
+    color: #B6B6B6;
+    background: #F2F6FF;
+    padding: 19rem 7.1rem 8.5rem 0;
+    position: relative;
+}
+.section-4::before{
+    content: "";
+    height: 71rem;
+    width: 71rem;
+    position: absolute;
+    top: 3.9rem;
+    left: 3.3rem;
+    background-image: url(img/Mobile\ Marketing-rafiki\ 1.png);
+    background-size: cover;
+}
+.section-4 h3{
+    font-size: 3.2rem;
+    font-family: 'Arsenal-Bold';
+    color: black;
+    margin-bottom: 1.7rem;
+}
+.section-4_wrap-type-1{
+    display: flex;
+}
+.section-4_wrap-type-2{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 6.2rem;
+}
+.section-4_img-1{
+    width: 8.89rem;
+    height: 8.89rem;
+    margin: 2.95rem 4.15rem 0 0; 
+}
+.section-4_img-2{
+    width: 11rem;
+    height: 14rem;
+    margin: 1.3rem 3.8rem 0 4.3rem;
+}
+.section-4_img-3{
+    width: 11rem;
+    height: 11rem;  
+    margin: 2.4rem 4.2rem 0 0;  
+}
+.section-4_img-4{
+    width: 16.3rem;
+    height: 16.3rem;
+    margin-right: 1.6rem;
+}
+.section-4_span-1{
+    display: block;
+    width: 42.4rem;
+}
+.section-4_span-2{
+    display: block;
+    width: 45.7rem;
+}
+.section-4_span-3{
+    display: block;
+    width: 43.6rem;
+}
+.section-4_span-4{
+    display: block;
+    width: 45.8rem;
+}
+.section-5{
+    padding: 12.3rem 25rem 29.9rem 25rem;   
+    font-family: 'Roboto-unbold';
+    font-size: 2.3rem;
+    color: white;
+}
+.section-5 h2{
+    margin: 0 0 3.8rem 0;
+    font-family: 'Arsenal-Bold';
+    font-size: 5.5rem;
+    color: black;
+}
+.section-5_h3{
+    font-family: 'Arsenal-Bold';
+    font-size: 3.2rem;
+}
+.section-5_wrap-type-1{
+    display: flex;
+    margin-bottom: 2.5rem;
+}
+.section-5_block-1{
+    display: block;
+    box-sizing: border-box;
+    padding: 4.98rem 0 0 4.85rem;
+    background-image: url(img/novostrojki\ 3-1.png);
+    background-size: cover;
+    width: 76.7rem;
+    height: 28.9rem;
+    border-radius: 10px;
+    margin-right: 1.8rem;
+}
+.section-5_block-1 h3{
+    margin-bottom: 1.57rem;
+}
+.section-5_block-3 h3{
+    margin-bottom: 2.22rem;
+}
+.section-5_block-5 h3{
+    margin-bottom: 1.32rem;
+}
+.section-5_block-7 h3{
+    margin-bottom: 2.22rem;
+}
+.section-5_block-8 h3{
+    margin-bottom: 1.7rem;
+}
+.section-5_block-2{
+    display: flex;
+    flex-direction: column;    
+    box-sizing: border-box;
+    padding: 4.2rem 0 0 32.35rem;
+    background: #5894C9;
+    width: 63.5rem;
+    height: 28.9rem;
+    border-radius: 10px;
+}
+.section-5_block-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 8.33rem;
+    background-image: url(img/novostrojki\ 7.png);
+    background-size: cover;
+    width: 46rem;
+    height: 28.89rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+.section-5_block-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 4.62rem;
+    background: #5894C9;
+    width: 46rem;
+    height: 28.9rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+.section-5_block-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 7.43rem;
+    background-image: url(img/novostrojki\ 5.png);
+    background-size: cover;
+    width: 46rem;
+    height: 28.89rem;
+    border-radius: 10px;    
+}
+.section-5_block-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 8.93rem;
+    background: #F8F8F8;
+    width: 46rem;
+    height: 28.9rem;
+    border-radius: 10px;
+    margin-right: 2rem;
+    color: #5894C9;
+}
+.section-5_block-7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 8.33rem;
+    background-image: url(img/novostrojki\ 6.png);
+    background-size: cover;
+    width: 46rem;
+    height: 28.89rem;
+    border-radius: 10px;  
+    margin-right: 2rem;  
+}
+.section-5_block-8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 10.55rem;
+    background-image: url(img/novostrojki\ 10.png);
+    background-size: cover;
+    width: 46rem;
+    height: 28.89rem;
+    border-radius: 10px;       
+}
+.section-5_img-1{
+    width: 11.9rem;
+    height: 12rem;
+    margin: 0 0 2.8rem 2.15rem;
+}
+.section-5_img-2{
+    width: 9.98rem;
+    height: 12.47rem;
+    margin-bottom: 1.77rem;
+}
+.section-5_img-3{
+    width: 11.7rem;
+    height: 7.43rem;
+    margin-bottom: 2.5rem;
+}
+.footer{    
+    background: linear-gradient(180deg, #1879A2 0%, #019CDE 100%);  
+    padding: 6rem 21.3rem 0.85rem 21.47rem;  
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    color: white;
+}
+.footer_wrap{
+    display: flex;
+}
+.footer h3{
+    font-family: 'Montserrat-Bold';
+    font-size: 1.8rem;
+}
+.footer_nav_h3{
+    margin: 0 0 1.05rem 6rem;
+}
+.footer_social-media_h3{
+    margin: 0 0 3.3rem 1.3rem;
+}
+.footer_nav{
+    display: flex;
+    flex-direction: column;  
+    margin: 0 35.13rem 3.72rem 0;  
+}
+.footer_nav_wrap{
+    display: flex;
+}
+.footer_nav_left, .footer_nav_right{
+    display: flex;
+    flex-direction: column;
+}
+.footer_nav_left{
+    margin-right: 6.67rem;
+}
+.footer_social-media{
+    margin-right: 26.2rem;
+}
+.footer_social-media_img{
+    width: 5.5rem;
+    height: 5.5rem;
+}
+.footer_info_h3{
+    margin-bottom: 0.97rem;
+}
+.footer_info_wrap{
+    display: flex;    
+}
+.footer_info_img{
+    width: 1.65rem;
+    height: 2.2rem;
+    margin-right: 1.08rem;
+}
+.footer_info_location{
+    display: block;
+    width: 35.47rem;
+}
+.footer_info_call{
+    margin: 0.92rem 0 0 3.1rem;
+    display: block;
+}
+.footer_corporation{
+    display: block;
+    text-align: center;
+}
